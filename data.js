@@ -7,4 +7,11 @@ const games = [
         url: "https://www.jopi.com/embed.php?game=subway-surfers"
     },
     // Další hry můžeš přidat sem ve stejném formátu
+    {
+        id: "btd4",
+        name: "Bloons TD 4",
+        icon: "https://learningworksforkids.com/wp-content/uploads/Bloons-Tower-Defense-4-Icon.png",
+        description: "Tower Defense game by NINJA KIWI",
+        url: "https://cdn2.addictinggames.com/addictinggames-content/ag-assets/content-items/html5-games/bloonstowerdefense4/index.html"
+    },
 ];
