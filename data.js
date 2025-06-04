@@ -37,7 +37,7 @@ const games = [
     },
          {
         id: "geometrydash",
-        name: "Key Quest",
+        name: "Geometry Dash",
         icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4K5nTI4sWAOKdvgpDTo_Dmtcsf8EV3ye4xg&s",
         description: "A fun and challenging rhythm-based platformer!",
         url: "https://www.jopi.com/embed.php?game=geometry-dash"
