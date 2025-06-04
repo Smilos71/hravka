@@ -28,4 +28,18 @@ const games = [
         description: "Play GTA Simulator - A fun online sandbox game!",
         url: "https://www.onlinegames.io/games/2023/unity2/gta-simulator/index.html"
     },
+     {
+        id: "keyquest",
+        name: "Key Quest",
+        icon: "https://www.jopi.com/cdn-cgi/image/quality=70,width=256,height=256,f=auto/img/t/key-quest.png",
+        description: "Enjoy the platformer adventure of Key Quest! ",
+        url: "https://www.jopi.com/gam/key-quest/"
+    },
+         {
+        id: "geometrydash",
+        name: "Key Quest",
+        icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4K5nTI4sWAOKdvgpDTo_Dmtcsf8EV3ye4xg&s",
+        description: "A fun and challenging rhythm-based platformer!",
+        url: "https://www.jopi.com/embed.php?game=geometry-dash"
+    },
 ];
