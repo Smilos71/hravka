@@ -70,11 +70,5 @@ const games = [
         description: "A creative and fun building game where you can explore and create with friends!",
         url: "https://www.jopi.com/embed.php?game=bloxd-io"
     },
-    {
-        id: "craftnite"
-        name: "Craftnite.io",
-        icon: "https://cdn-1.webcatalog.io/catalog/craftnite-io/craftnite-io-icon-filled-256.png?v=1714779938123",
-        description: "Combine crafting and battle royale elements in this exciting online game!",
-        url: "https://www.jopi.com/embed.php?game=craftnite-io"
-    },
+
 ];
