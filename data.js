@@ -47,6 +47,6 @@ const games = [
         name: "Flip Bottle",
         icon: "https://images-na.ssl-images-amazon.com/images/I/717CybpZA2L.png",
         description: "Can you do a bottle flip?",
-        url: "https://flip-bottle.game-files.crazygames.com/flip-bottle/1/index.html?skipPrerollFirstSession=true"
+        url: "https://html5.gamedistribution.com/95c4932d8f6d42688b0fa38274282a86/"
     },
 ];
