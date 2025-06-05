@@ -47,6 +47,20 @@ const games = [
         name: "Flip Bottle",
         icon: "https://images-na.ssl-images-amazon.com/images/I/717CybpZA2L.png",
         description: "Can you do a bottle flip?",
-        url: "https://html5.gamedistribution.com/95c4932d8f6d42688b0fa38274282a86/"
+        url: "https://www.jopi.com/embed.php?game=flip-bottle"
+    },
+        {
+        id: "neonbricks",
+        name: "Neon Bricks",
+        icon: "https://www.jopi.com/cdn-cgi/image/quality=70,width=256,height=256,f=auto/img/t/neon-bricks.png",
+        description: "A fun brick-breaking game where you control a paddle to bounce the ball and destroy the bricks.",
+        url: "https://www.jopi.com/embed.php?game=neon-bricks"
+    },
+            {
+        id: "waytohome",
+        name: "Way To Home",
+        icon: "https://www.jopi.com/cdn-cgi/image/quality=70,width=256,height=256,f=auto/img/t/way-to-home.png",
+        description: "Help the characters find their way home by drawing a path! Navigate through obstacles and guide them safely.",
+        url: "https://www.jopi.com/embed.php?game=way-to-home"
     },
 ];
