@@ -17,7 +17,7 @@ const games = [
         {
         id: "minecraft",
         name: "Minecraft Java",
-        icon: "https://www.addictinggames.com/_next/image?url=https%3A%2F%2Fprod.addictinggames.com%2Fsites%2Fdefault%2Ffiles%2Ffitelol_promo_720_468%2520%25281%2529.png&w=1920&q=100",
+        icon: "https://i.gyazo.com/thumb/1000/a4abc5fdb965d1b97db38453012efc73-png.png",
         description: "Play Minecraft online",
         url: "https://eaglercraft.com/mc/1.8.8/"
     },
@@ -41,5 +41,12 @@ const games = [
         icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4K5nTI4sWAOKdvgpDTo_Dmtcsf8EV3ye4xg&s",
         description: "A fun and challenging rhythm-based platformer!",
         url: "https://www.jopi.com/embed.php?game=geometry-dash"
+    },
+             {
+        id: "flipbottle",
+        name: "Flip Bottle",
+        icon: "https://images-na.ssl-images-amazon.com/images/I/717CybpZA2L.png",
+        description: "Can you do a bottle flip?",
+        url: "https://flip-bottle.game-files.crazygames.com/flip-bottle/1/index.html?skipPrerollFirstSession=true"
     },
 ];
