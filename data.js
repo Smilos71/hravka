@@ -47,7 +47,7 @@ const games = [
         name: "Flip Bottle",
         icon: "https://images-na.ssl-images-amazon.com/images/I/717CybpZA2L.png",
         description: "Can you do a bottle flip?",
-        url: "https://www.jopi.com/embed.php?game=flip-bottle"
+        url: "https://html5.gamemonetize.co/iru15z50v390mf4p0y19jsfu54r9glyz/"
     },
         {
         id: "neonbricks",
