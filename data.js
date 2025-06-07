@@ -84,6 +84,13 @@ const games = [
         description: "Tomb of the Mask is an action-packed maze game. Navigate through the tomb while avoiding traps and collecting coins. Use your quick reflexes to master the levels and unlock hidden secrets. ",
         url: "https://htmlxm.github.io/h8/tomb-of-the-mask/"
     },
+    {
+        id: "squarebird",
+        name: "Square Bird",
+        icon: "https://play-lh.googleusercontent.com/SSHfkzIYw4uBMCxuVJy3uR1ve1M_8mKRTwWNhD-UFb5vrAg9IO54hCk4boGYvv363MrW",
+        description: "Build a tower of blocks to help the bird cross over obstacles. Timing is everything in this addictive arcade ",
+        url: "https://www.gameflare.com/embed/square-bird/"
+    },
     
 
 ];
