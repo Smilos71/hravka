@@ -77,5 +77,13 @@ const games = [
         description: "Combine crafting and battle royale elements in this exciting online game!",
         url: "https://www.jopi.com/embed.php?game=craftnite-io"
     },
+    {
+        id: "tombofthemask",
+        name: "Tomb Of The Mask",
+        icon: "https://play-lh.googleusercontent.com/ATGr-U4JBK2VjFzKGK9eMMkrDxJaazadOUoz_7Yl0U5NrWSFcFUzEtNurWXYzVWc8uOO",
+        description: "Tomb of the Mask is an action-packed maze game. Navigate through the tomb while avoiding traps and collecting coins. Use your quick reflexes to master the levels and unlock hidden secrets. ",
+        url: "https://htmlxm.github.io/h8/tomb-of-the-mask/"
+    },
+    
 
 ];
