@@ -89,7 +89,7 @@ const games = [
         name: "Square Bird",
         icon: "https://play-lh.googleusercontent.com/SSHfkzIYw4uBMCxuVJy3uR1ve1M_8mKRTwWNhD-UFb5vrAg9IO54hCk4boGYvv363MrW",
         description: "Build a tower of blocks to help the bird cross over obstacles. Timing is everything in this addictive arcade ",
-        url: "https://www.gameflare.com/embed/square-bird/"
+        url: "https://www.crazygames.com/embed/square-bird"
     },
     
 
