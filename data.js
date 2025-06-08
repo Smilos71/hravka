@@ -119,5 +119,12 @@ const games = [
         description: "Can you complete it?",
         url: "https://www.crazygames.com/embed/tung-tung-sahur-obby-challenge"
     },
+            {
+        id: "racinglimits",
+        name: "Racing Limits",
+        icon: "https://freezenova-game.github.io/assert/icons/racing-limits-cover-m144x144.png",
+        description: "Racing game",
+        url: "https://www.crazygames.com/embed/racing-limits"
+    },
 
 ];
