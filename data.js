@@ -91,6 +91,13 @@ const games = [
         description: "Build a tower of blocks to help the bird cross over obstacles. Timing is everything in this addictive arcade ",
         url: "https://www.crazygames.com/embed/square-bird"
     },
+        {
+        id: "paperio",
+        name: "Paper.io",
+        icon: "http://www.webmasters-en-france.com/wp-content/uploads/logo-paper-io.png",
+        description: "Just survive. That´s all",
+        url: "https://www.crazygames.com/embed/paper-io-2"
+    },
     
 
 ];
