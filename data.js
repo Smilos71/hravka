@@ -105,6 +105,19 @@ const games = [
         description: "Get the number 2048!",
         url: "https://www.crazygames.com/embed/man-runner-2048"
     },
-    
+           {
+        id: "colormatch",
+        name: "Color Match",
+        icon: "https://hyhygames.com/thumbs/color-match-crazygames_1.jpg",
+        description: "Match the right color of an object!",
+        url: "https://www.crazygames.com/embed/color-match-amg"
+    },
+        {
+        id: "ttsobby",
+        name: "Tung Tung Sahur Obby",
+        icon: "https://cdn.playmix.cc/images/thumbs/320x320/tung-tung-sahur-obby-challenge.webp",
+        description: "Can you complete it?",
+        url: "https://www.crazygames.com/embed/tung-tung-sahur-obby-challenge"
+    },
 
 ];
