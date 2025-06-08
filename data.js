@@ -98,6 +98,13 @@ const games = [
         description: "Just survive. That´s all",
         url: "https://www.crazygames.com/embed/paper-io-2"
     },
+       {
+        id: "mr2048",
+        name: "Man Runner 2048",
+        icon: "https://play-lh.googleusercontent.com/6psZeQPrKWBEl6wgaQH_SDYT8d2r0fcclLXgq2Fh5ZJe4hnzSHkEQZRVEk-V8tVQZio",
+        description: "Get the number 2048!",
+        url: "https://www.crazygames.com/embed/man-runner-2048"
+    },
     
 
 ];
