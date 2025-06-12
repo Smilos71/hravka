@@ -131,7 +131,7 @@ const games = [
         name: "Mad Town Andreas",
         icon: "https://www.play-games.com/files/img/mad-andreas-town-mafia-old-friends-2-1724146216.jpg",
         description: "Free online GTA copy",
-        url: "https://www.crazygames.com/embed/mad-town-andreas-storie"
+        url: "https://www.crazygames.com/embed/mad-town-andreas-mafia-storie"
     },
 
 ];
