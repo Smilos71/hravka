@@ -126,5 +126,12 @@ const games = [
         description: "Racing game",
         url: "https://www.crazygames.com/embed/racing-limits"
     },
+                {
+        id: "madtown",
+        name: "Mad Town Andreas",
+        icon: "https://www.play-games.com/files/img/mad-andreas-town-mafia-old-friends-2-1724146216.jpg",
+        description: "Free online GTA copy",
+        url: "https://www.crazygames.com/embed/mad-town-andreas-storie"
+    },
 
 ];
