@@ -161,5 +161,34 @@ const games = [
     description: "Gravity Fruit Merge is a casual puzzle game where you shoot or float identical fruit slices upward (against gravity), merging them into larger fruits.",
     url: "https://fruitmerge.me/games/gravity-fruit-merge/"
 },
+{
+    id: "1v1lol",
+    name: "1v1.LOL",
+    icon: "https://webglmath.github.io/1v1-lol/logo.png",
+    description: "1v1.lol is a fast‑paced, browser‑based third‑person shooter and building game where you duel other players in 1v1 or squad battle‑royale modes, constructing walls, ramps, and platforms to outsmart and outshoot opponents until only one remains.",
+    url: "https://1v1lol.org/games/1v1/"
+},
+{
+    id: "bowling",
+    name: "Bowling",
+    icon: "https://unblockedgames6x.org/games/bowling/thumb_2.png",
+    description: "Bowling is a classic sports game where you roll a ball down a lane to knock over as many pins as possible in ten frames.",
+    url: "https://unblockedgames6x.org/games/bowling/"
+},
+{
+    id: "masterchess",
+    name: "Master Chess",
+    icon: "https://rebemanae.github.io/master-chess/logo.png",
+    description: "Master Chess is an online casual chess game.",
+    url: "https://rebemanae.github.io/master-chess/"
+},
+{
+    id: "basketrandom",
+    name: "Basket Random",
+    icon: "https://play-lh.googleusercontent.com/gP8T5Z1O-ngxIloiwcBZzrzyLPYDp0R_1BDNKUDZboIRPVImeyWI8-7aExvB9gAGNKc",
+    description: "Basket Random is a chaotic, pixel‑art, two‑player arcade basketball game featuring unpredictable ragdoll physics and randomized courts.",
+    url: "https://unblockedgames66.gitlab.io/basket-random/"
+},
+
 
 ];
