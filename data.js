@@ -133,5 +133,12 @@ const games = [
         description: "Free online GTA copy",
         url: "https://www.crazygames.com/embed/mad-town-andreas-mafia-storie"
     },
+    {
+    id: "emojirng",
+    name: "Emoji RNG",
+    icon: "https://i.ibb.co/nsM1F4Dt/emojirng.png",
+    description: "Can you roll the best emoji?",
+    url: "https://spamsmilosakrfgd55.github.io/files/hravka/games/erng.html"
+},
 
 ];
