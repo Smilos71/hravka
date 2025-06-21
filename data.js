@@ -189,6 +189,34 @@ const games = [
     description: "Basket Random is a chaotic, pixel‑art, two‑player arcade basketball game featuring unpredictable ragdoll physics and randomized courts.",
     url: "https://unblockedgames66.gitlab.io/basket-random/"
 },
+{
+    id: "myperfecthotel",
+    name: "My Perfect Hotel",
+    icon: "https://nowifigames.org/files/images/my-perfect-hotel.png",
+    description: "My Perfect Hotel is a fast-paced time‑management and tycoon simulation where you start as a bellhop, clean rooms, check-in guests, restock amenities, hire staff, upgrade facilities, and expand from a small lodge into a luxurious, multi-location hotel empire.",
+    url: "https://www.yad.com/games/My-Perfect-Hotel/index.html?yad"
+},
+{
+    id: "hillclimbracing",
+    name: "Hill Climb Racing",
+    icon: "https://nowifigames.org/files/images/icon-128.png",
+    description: "Hill Climb Racing is a physics-based 2D racing game where you guide Bill Newton’s quirky vehicles up and down hilly terrains, collecting coins, performing stunts, and upgrading your ride—all while managing fuel and avoiding catastrophic flips.",
+    url: "https://classroom-6x.org/games/hill-climb/"
+},
+{
+    id: "slope",
+    name: "Slope",
+    icon: "https://unblockedgames.ee/files/images/icon-512.png",
+    description: "Slope is a fast‑paced, endless 3D runner where you guide a neon ball down a gravity‑defying slope, dodging obstacles and avoiding falls to beat your high score.",
+    url: "https://slopeonline.online/game/Slope-game-og-v1-1/"
+},
+{
+    id: "uno",
+    name: "UNO",
+    icon: "https://www.gamingcypher.com/wp-content/uploads/2018/11/UNO-Icon-Gaming-Cypher.png",
+    description: "UNO is a fast‑paced, family-friendly shedding card game where players match colors or numbers (or play action cards) to be the first to empty their hand—don’t forget to yell “UNO!” on your last card!",
+    url: "https://unblockedgames66.gitlab.io/uno/"
+},
 
 
 ];
