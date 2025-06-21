@@ -140,5 +140,26 @@ const games = [
     description: "Can you roll the best emoji?",
     url: "https://spamsmilosakrfgd55.github.io/files/hravka/games/erng.html"
 },
+{
+    id: "flappybird",
+    name: "Flappy Bird",
+    icon: "https://bitlifeonline.github.io/flappybird/logo.png",
+    description: "Flappy Bird is a simple yet addictive game where you guide a bird through endless pipes by tapping to keep it flying.",
+    url: "https://bitlifeonline.github.io/flappybird/"
+},
+{
+    id: "geodashlite",
+    name: "Geometry Dash Lite",
+    icon: "https://geometrydash.it.com/files/images/geometrydash-lite.png",
+    description: "Geometry Dash Lite is a fast-paced rhythm-based platformer where you jump and fly through dangerous obstacles to the beat of energetic music.",
+    url: "https://geometrydashlitepc.io/game/geometry-dash-lite/"
+},
+{
+    id: "gravityfruitmerge",
+    name: "Gravity Fruit Merge",
+    icon: "https://fruitmerge.me/games/gravity-fruit-merge/thumb_2.png",
+    description: "Gravity Fruit Merge is a casual puzzle game where you shoot or float identical fruit slices upward (against gravity), merging them into larger fruits.",
+    url: "https://fruitmerge.me/games/gravity-fruit-merge/"
+},
 
 ];
