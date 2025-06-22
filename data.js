@@ -217,6 +217,34 @@ const games = [
     description: "UNO is a fast‑paced, family-friendly shedding card game where players match colors or numbers (or play action cards) to be the first to empty their hand—don’t forget to yell “UNO!” on your last card!",
     url: "https://unblockedgames66.gitlab.io/uno/"
 },
+{
+    id: "cookieclicker",
+    name: "Cookie Clicker",
+    icon: "https://dordle.io/data/image/game/cookie-clicker.png",
+    description: "Cookie Clicker is an addictive incremental (idle) game where you click a giant cookie to earn cookies and use them to buy buildings and upgrades that automate production and enable exponential growth with no defined end.",
+    url: "https://ubg365.github.io/"
+},
+{
+    id: "aquaparkio",
+    name: "Aquapark.io",
+    icon: "https://play-lh.googleusercontent.com/pNI21ILS4I9IAzveYzjbfk5D5LGuL03b0Ea4OtlFRLD_yk7KYLBeLlBmsvhH7Uj-dQn6",
+    description: "Aquapark.io is a colorful, fast-paced water-slide racing game where you zoom downhill, bump opponents, perform aerial jumps and shortcuts, and race to splash into the pool first—though the competition is actually AI-controlled.",
+    url: "https://unblockedgames66.gitlab.io/aquapark-io/"
+},
+{
+    id: "fruitscut3d",
+    name: "Fruit Cuts 3D",
+    icon: "https://play-lh.googleusercontent.com/aR3EOhTi5huFXiKDd0vxREUAkV4YkAC2Fd22gFb9h5vEzGw-DoZih1tngEXECD97Eeg",
+    description: "Fruits Cut 3D is a casual 3D fruit‑slicing game where you swipe across the screen to cut flying fruits—like oranges, coconuts, bananas, pineapples, and watermelons—while avoiding bombs, across classic, timed, pipeline, and one‑shot modes for combo‑filled scoring fun.",
+    url: "https://ubg365.github.io/fruits-cut-3d/"
+},
+{
+    id: "goingballs",
+    name: "Going Balls",
+    icon: "https://play-lh.googleusercontent.com/aR3EOhTi5huFXiKDd0vxREUAkV4YkAC2Fd22gFb9h5vEzGw-DoZih1tngEXECD97Eeg",
+    description: "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/f1/49/96/f1499654-5a9c-4bb6-4d1c-30e382eb15ac/source/512x512bb.jpg",
+    url: "https://ubg365.github.io/going-balls/play.html"
+},
 
 
 ];
