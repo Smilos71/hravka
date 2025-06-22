@@ -241,8 +241,8 @@ const games = [
 {
     id: "goingballs",
     name: "Going Balls",
-    icon: "https://play-lh.googleusercontent.com/aR3EOhTi5huFXiKDd0vxREUAkV4YkAC2Fd22gFb9h5vEzGw-DoZih1tngEXECD97Eeg",
-    description: "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/f1/49/96/f1499654-5a9c-4bb6-4d1c-30e382eb15ac/source/512x512bb.jpg",
+    icon: "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/f1/49/96/f1499654-5a9c-4bb6-4d1c-30e382eb15ac/source/512x512bb.jpg",
+    description: "Going Balls is a fast‑paced 3D rolling‑ball platformer where you swipe to guide a ball down winding tracks, dodge obstacles, grab coins, unlock skins, and race through hundreds of levels in a colorful, gravity‑defying world.",
     url: "https://ubg365.github.io/going-balls/play.html"
 },
 
