@@ -4,7 +4,7 @@ const games = [
         name: "Subway Surfers",
         icon: "https://cdnb.artstation.com/p/assets/images/images/040/799/969/large/celine-j-icon-1024-ios.jpg?1629908125",
         description: "Run as fast as you can while dodging trains, collecting coins, and unlocking new characters! Subway Surfers is an endless runner that challenges your reflexes and skills.",
-        url: "https://www.jopi.com/embed.php?game=subway-surfers"
+        url: "https://html5.gamemonetize.co/60iqc76rla56c0zz5n8c8563j6caguek/"
     },
     // Další hry můžeš přidat sem ve stejném formátu
     {
@@ -19,7 +19,7 @@ const games = [
         name: "Minecraft Java",
         icon: "https://i.gyazo.com/thumb/1000/a4abc5fdb965d1b97db38453012efc73-png.png",
         description: "Play Minecraft online",
-        url: "https://eaglercraft.com/mc/1.8.8/"
+        url: "https://spamsmilosakrfgd55.github.io"
     },
             {
         id: "gtasim",
@@ -40,7 +40,7 @@ const games = [
         name: "Geometry Dash",
         icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4K5nTI4sWAOKdvgpDTo_Dmtcsf8EV3ye4xg&s",
         description: "A fun and challenging rhythm-based platformer!",
-        url: "https://www.jopi.com/embed.php?game=geometry-dash"
+        url: "https://scratch.mit.edu/projects/105500895/embed"
     },
              {
         id: "flipbottle",
@@ -54,28 +54,28 @@ const games = [
         name: "Neon Bricks",
         icon: "https://www.jopi.com/cdn-cgi/image/quality=70,width=256,height=256,f=auto/img/t/neon-bricks.png",
         description: "A fun brick-breaking game where you control a paddle to bounce the ball and destroy the bricks.",
-        url: "https://www.jopi.com/embed.php?game=neon-bricks"
+        url: "https://www.jopi.com/gam/neon-bricks/"
     },
             {
         id: "waytohome",
         name: "Way To Home",
         icon: "https://www.jopi.com/cdn-cgi/image/quality=70,width=256,height=256,f=auto/img/t/way-to-home.png",
         description: "Help the characters find their way home by drawing a path! Navigate through obstacles and guide them safely.",
-        url: "https://www.jopi.com/embed.php?game=way-to-home"
+        url: "https://www.jopi.com/gam/way-to-home/"
     },
     {
         id: "bloxdio",
         name: "Bloxd.io",
         icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6DQO3iUKTOd2pqn0NwYMxi0AFS8y51ljONg&s",
         description: "A creative and fun building game where you can explore and create with friends!",
-        url: "https://www.jopi.com/embed.php?game=bloxd-io"
+        url: "https://bloxd.io"
     },
         {
         id: "craftnite",
         name: "Craftnite.io",
         icon: "https://cdn-1.webcatalog.io/catalog/craftnite-io/craftnite-io-icon-filled-256.png?v=1714779938123",
         description: "Combine crafting and battle royale elements in this exciting online game!",
-        url: "https://www.jopi.com/embed.php?game=craftnite-io"
+        url: "https://craftnite.io"
     },
     {
         id: "tombofthemask",
