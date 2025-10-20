@@ -138,7 +138,7 @@ const games = [
     name: "Emoji RNG",
     icon: "https://i.ibb.co/nsM1F4Dt/emojirng.png",
     description: "Can you roll the best emoji?",
-    url: "https://spamsmilosakrfgd55.github.io/files/hravka/games/erng.html"
+    url: "https://spamsmilosakrfgd55.github.io/files/hravka/games/ergnc.html"
 },
 {
     id: "flappybird",
