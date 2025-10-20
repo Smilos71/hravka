@@ -250,7 +250,7 @@ const games = [
     name: "Bubble Shooter Classic",
     icon: "https://play-lh.googleusercontent.com/3Zifc-6g-1GFfxy2VXT6i3mH8ZzLXN2ZbAOw8JIpXBqZujBACjzJkhSw7Cm8jY0VIA",
     description: "The timeless and addictive bubble-popping puzzle game! Aim, shoot, and match colors to clear the board and advance to the next level.",
-    url: "https://www.bubbleshooter.net/games/bubble-shooter-pop-now/"
+    url: "https://www.bubbleshooter.net/games/bubble-shooter-mobile/"
 },
 {
     id: "babyhazel",
