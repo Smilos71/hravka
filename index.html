@@ -85,27 +85,6 @@
             transform: scale(1.05);
             transition: transform 0.3s, background-color 0.3s;
         }
-        
-        /* Styl pro tlačítko "Load more" */
-        #load-more-container {
-            text-align: center;
-            margin-top: 30px;
-        }
-
-        .load-more-button {
-            padding: 12px 25px;
-            font-size: 18px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        .load-more-button:hover {
-            background-color: #0056b3;
-        }
 
         .ad {
             text-align: center;
@@ -128,99 +107,38 @@
     <script src="data.js"></script>
 
     <script>
-        // Nastavení pro postupné načítání
-        const gamesPerPage = 30;
-        let currentPage = 1;
-
-        // Funkce pro vykreslení her pro aktuální stránku
-        function renderGames(isNewLoad = false) {
+        // Funkce pro generování HTML tlačítek her
+        function generateGameButtons() {
             const gameGrid = document.querySelector(".game-grid");
-            const loadMoreContainer = document.getElementById("load-more-container");
-            
-            // Určení indexů pro aktuální stránku
-            const startIndex = 0; // Vždy začínáme od začátku, ale zobrazíme jen to, co je v rámci currentPage * gamesPerPage
-            const endIndex = currentPage * gamesPerPage;
+            gameGrid.innerHTML = ""; // Vyčistí stávající obsah
 
-            // Získání her k zobrazení
             // 'games' je proměnná definovaná v data.js
-            const gamesToShow = games.slice(startIndex, endIndex);
+            games.forEach(game => {
+                const gameButton = document.createElement('a');
+                gameButton.href = `https://hravka.vercel.app/game.html?id=${game.id}`;
+                gameButton.className = 'game-button';
+                gameButton.setAttribute('data-game-title', game.name.toLowerCase()); // Přidáme data atribut pro vyhledávání
 
-            // Pokud se nejedná o nové načtení (např. při vyhledávání), nepřepisujeme celý obsah
-            if (isNewLoad) {
-                gameGrid.innerHTML = "";
-            }
-
-            // Vygenerování a přidání tlačítek her
-            gameGrid.innerHTML = gamesToShow.map(game => `
-                <a href="https://hravka.vercel.app/game.html?id=${game.id}" class="game-button" data-game-title="${game.name.toLowerCase()}">
+                gameButton.innerHTML = `
                     <img src="${game.icon}" alt="${game.name} icon">
                     <span>${game.name}</span>
-                </a>
-            `).join('');
-
-
-            // Zobrazení/Skrytí tlačítka "Load more"
-            if (endIndex < games.length) {
-                // Ještě jsou další hry k načtení
-                if (!document.getElementById('loadMoreButton')) {
-                    // Přidáme tlačítko, pokud ještě není
-                    loadMoreContainer.innerHTML = '<button id="loadMoreButton" class="load-more-button" onclick="loadMoreGames()">Load more</button>';
-                } else {
-                    // Tlačítko již existuje, jen ho zviditelníme
-                    document.getElementById('loadMoreButton').style.display = 'block';
-                }
-            } else {
-                // Všechny hry jsou zobrazeny, skryjeme tlačítko
-                loadMoreContainer.innerHTML = ''; // Nebo skryjeme tlačítko
-            }
-            
-            // Po vykreslení se ujistíme, že jsou správně aplikovány filtry z vyhledávání, pokud existují
-            searchGames(false);
-        }
-
-        // Funkce pro načtení další sady her
-        function loadMoreGames() {
-            currentPage++;
-            // Při načítání dalších her musíme vykreslit celou mřížku znovu, protože se mění počet zobrazených prvků
-            renderGames(true);
-        }
-
-        // Funkce pro vyhledávání her
-        function searchGames(resetPaging = true) {
-            const query = document.getElementById("search").value.toLowerCase();
-            const allGameButtons = document.querySelectorAll(".game-button");
-            const loadMoreButton = document.getElementById("loadMoreButton");
-
-            if (resetPaging) {
-                 // Při psaní do vyhledávání se stránkování neřeší, jen se filtrují všechny aktuálně ZOBRAZENÉ
-                 // Viditelnost tlačítka "Load more" řešíme na konci
-                currentPage = 1;
-                renderGames(true); // Vykreslíme jen první stránku, ale vyhledávání se uplatní na všechny
-            }
-            
-            let foundCount = 0;
-            allGameButtons.forEach(game => {
-                const title = game.getAttribute('data-game-title');
-                const isVisible = title.includes(query);
-                game.style.display = isVisible ? "flex" : "none";
-                if (isVisible) {
-                    foundCount++;
-                }
+                `;
+                gameGrid.appendChild(gameButton);
             });
-            
-            // Při vyhledávání skryjeme tlačítko "Load more", aby nedošlo k matení uživatele
-            if (query.length > 0 && loadMoreButton) {
-                loadMoreButton.style.display = 'none';
-            } else if (query.length === 0 && games.length > gamesPerPage && loadMoreButton) {
-                // Pokud je vyhledávání prázdné a je co načítat dál, tlačítko zobrazíme
-                loadMoreButton.style.display = 'block';
-            }
+        }
+
+        function searchGames() {
+            const query = document.getElementById("search").value.toLowerCase();
+            const games = document.querySelectorAll(".game-button");
+
+            games.forEach(game => {
+                const title = game.getAttribute('data-game-title');
+                game.style.display = title.includes(query) ? "flex" : "none";
+            });
         }
         
         // Spustit generování tlačítek po načtení DOMu
-        document.addEventListener('DOMContentLoaded', () => {
-             renderGames(true);
-        });
+        document.addEventListener('DOMContentLoaded', generateGameButtons);
     </script>
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8596430458708728"
@@ -253,10 +171,8 @@
         <h2>Games</h2><br>
         <div class="game-grid">
             </div>
-        
-        <div id="load-more-container">
-            </div>
-    </div>
+
+        </div>
 
     <footer>
         <p>© 2024-2025 Hravka. All rights reserved.</p>
