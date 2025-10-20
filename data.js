@@ -252,6 +252,12 @@ const games = [
     description: "The timeless and addictive bubble-popping puzzle game! Aim, shoot, and match colors to clear the board and advance to the next level.",
     url: "https://www.bubbleshooter.net/games/bubble-shooter-pop-now/"
 },
-
+{
+    id: "babyhazel",
+    name: "Baby Hazel",
+    icon: "https://m.media-amazon.com/images/I/81zt7MEHxfL.png",
+    description: "brainrot game",
+    url: "https://babyhazelgames.com"
+},
 
 ];
