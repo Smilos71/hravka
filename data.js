@@ -259,5 +259,26 @@ const games = [
     description: "brainrot game",
     url: "https://babyhazelgames.com"
 },
+{
+    id: "2048",
+    name: "2048",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLjL9LbVXtRH_MUFmLooTgaSIZWLpyxw0zCg&s",
+    description: "The viral, addictive sliding block puzzle! Swipe tiles to merge matching numbers and reach the elusive 2048 tile.",
+    url: "https://funhtml5games.com?embed=2048bit"
+},
+{
+    id: "mahjongsolitaireclassic",
+    name: "Mahjong Solitaire Classic",
+    icon: "https://play-lh.googleusercontent.com/hifFi4e_a107TWWAw21IK9MSzKRKh9lAN-wEKbs3LFOGr-EwEBoC0Do6PXNL42RZFo_w",
+    description: "The original relaxing tile-matching puzzle. Match identical free tiles to clear the board in this timeless East Asian strategy game.",
+    url: "https://cdn.htmlgames.com/MahjongSolitaire/"
+},
+{
+    id: "snakesandladdersmultiplayer",
+    name: "Snake and Ladders Multiplayer",
+    icon: "https://img.gamedistribution.com/d7fdf2c6b6984b57aae5f6fa81237e84-512x512.jpeg",
+    description: "Snake and Ladders is a well-known game series where you play against other players trying to see who gets to the end of the playing field first. The underlying principle of the game is rather simple – each player is throwing a dice and moves accordingly. If you hit a ladder, you can climb it and shorten your journey. If you hit a snake, you slide down! You can play with your friends on one PC, or through multiplayer. (gameflare.com)",
+    url: "https://www.gameflare.com/embed/snake-and-ladders-multiplayer/"
+},
 
 ];
