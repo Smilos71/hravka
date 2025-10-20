@@ -6,8 +6,6 @@
     <link rel="shortcut icon" href="https://smix-video.vercel.app/icon.ico" type="image/x-icon">
     <title>Hravka - Free Games for Everyone</title>
 
-
-
     <style>
         * {
             margin: 0;
@@ -105,30 +103,56 @@
             font-size: 14px;
         }
     </style>
+    
+    <script src="data.js"></script>
+
     <script>
+        // Funkce pro generování HTML tlačítek her
+        function generateGameButtons() {
+            const gameGrid = document.querySelector(".game-grid");
+            gameGrid.innerHTML = ""; // Vyčistí stávající obsah
+
+            // 'games' je proměnná definovaná v data.js
+            games.forEach(game => {
+                const gameButton = document.createElement('a');
+                gameButton.href = `https://hravka.vercel.app/game.html?id=${game.id}`;
+                gameButton.className = 'game-button';
+                gameButton.setAttribute('data-game-title', game.name.toLowerCase()); // Přidáme data atribut pro vyhledávání
+
+                gameButton.innerHTML = `
+                    <img src="${game.icon}" alt="${game.name} icon">
+                    <span>${game.name}</span>
+                `;
+                gameGrid.appendChild(gameButton);
+            });
+        }
+
         function searchGames() {
             const query = document.getElementById("search").value.toLowerCase();
             const games = document.querySelectorAll(".game-button");
+
             games.forEach(game => {
-                const title = game.querySelector("span").innerText.toLowerCase();
+                const title = game.getAttribute('data-game-title');
                 game.style.display = title.includes(query) ? "flex" : "none";
             });
         }
+        
+        // Spustit generování tlačítek po načtení DOMu
+        document.addEventListener('DOMContentLoaded', generateGameButtons);
     </script>
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8596430458708728"
-     crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
 
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JFGKF9ZV0T"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JFGKF9ZV0T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-  gtag('config', 'G-JFGKF9ZV0T');
-</script>
+        gtag('config', 'G-JFGKF9ZV0T');
+    </script>
 
 
 
@@ -140,170 +164,15 @@
     </header>
 
     <div class="container">
-       <!-- <div class="ad">
-            <iframe data-aa='2371981' src='//ad.a-ads.com/2371981?size=728x90' style='width:728px; height:90px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
-        </div> -->
-
         <div class="search-bar">
             <input type="text" id="search" placeholder="Search games..." oninput="searchGames()">
         </div>
 
         <h2>Games</h2><br>
         <div class="game-grid">
-            <a href="game.html?id=btd4" class="game-button">
-                <img src="https://learningworksforkids.com/wp-content/uploads/Bloons-Tower-Defense-4-Icon.png" alt="icon">
-                <span>Bloons TD 4</span>
-            </a>
-            <a href="game.html?id=minecraft" class="game-button">
-                <img src="https://i.gyazo.com/thumb/1000/a4abc5fdb965d1b97db38453012efc73-png.png" alt="Game 3 Icon">
-                <span>Minecraft Java</span>
-            </a>
-            <a href="game.html?id=gtasim" class="game-button">
-                <img src="https://www.onlinegames.io/media/posts/416/responsive/GTA-Simulator-lg.jpg" alt="Game 4 Icon">
-                <span>GTA Simulator</span>
-            </a>
-            <a href="game.html?id=keyquest" class="game-button">
-                <img src="https://www.jopi.com/cdn-cgi/image/quality=70,width=256,height=256,f=auto/img/t/key-quest.png" alt="Game 5 Icon">
-                <span>Key Quest</span>
-            </a>
-            <a href="game.html?id=geometrydash" class="game-button">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4K5nTI4sWAOKdvgpDTo_Dmtcsf8EV3ye4xg&s" alt="Game 5 Icon">
-                <span>Geometry Dash</span>
-            </a>
-            <a href="game.html?id=neonbricks" class="game-button">
-                <img src="https://www.jopi.com/cdn-cgi/image/quality=70,width=256,height=256,f=auto/img/t/neon-bricks.png" alt="Game 5 Icon">
-                <span>Neon Bricks</span>
-            </a>
-            <a href="game.html?id=waytohome" class="game-button">
-                <img src="https://www.jopi.com/cdn-cgi/image/quality=70,width=256,height=256,f=auto/img/t/way-to-home.png" alt="Game 5 Icon">
-                <span>Way To Home</span>
-            </a>
-            <a href="game.html?id=bloxdio" class="game-button">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6DQO3iUKTOd2pqn0NwYMxi0AFS8y51ljONg&s" alt="Game 5 Icon">
-                <span>Bloxd.io</span>
-            </a>
-            <a href="game.html?id=craftnite" class="game-button">
-                <img src="https://cdn-1.webcatalog.io/catalog/craftnite-io/craftnite-io-icon-filled-256.png?v=1714779938123" alt="Game 5 Icon">
-                <span>Craftnite.io</span>
-            </a>
-            <a href="game.html?id=tombofthemask" class="game-button">
-                <img src="https://play-lh.googleusercontent.com/ATGr-U4JBK2VjFzKGK9eMMkrDxJaazadOUoz_7Yl0U5NrWSFcFUzEtNurWXYzVWc8uOO" alt="Game 5 Icon">
-                <span>Tomb of the Mask</span>
-            </a>
-            <a href="game.html?id=subway" class="game-button">
-                <img src="https://cdnb.artstation.com/p/assets/images/images/040/799/969/large/celine-j-icon-1024-ios.jpg?1629908125" alt="Game 5 Icon">
-                <span>Subway Surfers</span>
-            </a>
-            <a href="game.html?id=squarebird" class="game-button">
-                <img src="https://play-lh.googleusercontent.com/SSHfkzIYw4uBMCxuVJy3uR1ve1M_8mKRTwWNhD-UFb5vrAg9IO54hCk4boGYvv363MrW" alt="icon">
-                <span>Square Bird</span>
-            </a>
-            <a href="https://hravka.glitch.me/game/mineclone.html" class="game-button">
-                <img src="https://www5.minijuegosgratis.com/v3/games/thumbnails/24899_1.jpg" alt="icon">
-                <span>Mine Clone</span>
-            </a>
-            <a href="game.html?id=flipbottle" class="game-button">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/717CybpZA2L.png" alt="icon">
-                <span>Flip Bottle</span>
-            </a>
-            <a href="https://spamsmilosakrfgd55.github.io/files/hravka/kopi.html" class="game-button">
-                <img src="https://m.media-amazon.com/images/I/81zt7MEHxfL.png" alt="icon">
-                <span>Baby Hazel</span>
-            </a>
-            <a href="game.html?id=paperio" class="game-button">
-                <img src="https://www.webmasters-en-france.com/wp-content/uploads/logo-paper-io.png" alt="icon">
-                <span>Paper.io</span>
-            </a>
-            <a href="game.html?id=mr2048" class="game-button">
-                <img src="https://play-lh.googleusercontent.com/6psZeQPrKWBEl6wgaQH_SDYT8d2r0fcclLXgq2Fh5ZJe4hnzSHkEQZRVEk-V8tVQZio" alt="icon">
-                <span>Man Runner 2048</span>
-            </a>
-            <a href="game.html?id=colormatch" class="game-button">
-                <img src="https://hyhygames.com/thumbs/color-match-crazygames_1.jpg" alt="icon">
-                <span>Color Match</span>
-            </a>
-            <a href="game.html?id=ttsobby" class="game-button">
-                <img src="https://cdn.playmix.cc/images/thumbs/320x320/tung-tung-sahur-obby-challenge.webp" alt="icon">
-                <span>Tung Tung Sahur Obby</span>
-            </a>
-            <a href="game.html?id=racinglimits" class="game-button">
-                <img src="https://freezenova-game.github.io/assert/icons/racing-limits-cover-m144x144.png" alt="icon">
-                <span>Racing Limits</span>
-            </a>
-            <a href="game.html?id=madtown" class="game-button">
-                <img src="https://www.play-games.com/files/img/mad-andreas-town-mafia-old-friends-2-1724146216.jpg" alt="icon">
-                <span>Mad Town Andreas</span>
-            </a>
-            <a href="game.html?id=emojirng" class="game-button">
-                <img src="https://i.ibb.co/nsM1F4Dt/emojirng.png" alt="icon">
-                <span>Emoji RNG</span>
-            </a>
-            <a href="game.html?id=flappybird" class="game-button">
-    <img src="https://bitlifeonline.github.io/flappybird/logo.png" alt="icon">
-    <span>Flappy Bird</span>
-</a>
-<a href="game.html?id=geodashlite" class="game-button">
-    <img src="https://geometrydash.it.com/files/images/geometrydash-lite.png" alt="icon">
-    <span>Geometry Dash Lite</span>
-</a>
-<a href="game.html?id=gravityfruitmerge" class="game-button">
-    <img src="https://fruitmerge.me/games/gravity-fruit-merge/thumb_2.png" alt="icon">
-    <span>Gravity Fruit Merge</span>
-</a>
-<a href="game.html?id=1v1lol" class="game-button">
-    <img src="https://webglmath.github.io/1v1-lol/logo.png" alt="icon">
-    <span>1v1.LOL</span>
-</a>
-<a href="game.html?id=bowling" class="game-button">
-    <img src="https://unblockedgames6x.org/games/bowling/thumb_2.png" alt="icon">
-    <span>Bowling</span>
-</a>
-<a href="game.html?id=masterchess" class="game-button">
-    <img src="https://rebemanae.github.io/master-chess/logo.png" alt="icon">
-    <span>Master Chess</span>
-</a>
-<a href="game.html?id=basketrandom" class="game-button">
-    <img src="https://play-lh.googleusercontent.com/gP8T5Z1O-ngxIloiwcBZzrzyLPYDp0R_1BDNKUDZboIRPVImeyWI8-7aExvB9gAGNKc" alt="icon">
-    <span>Basket Random</span>
-</a>
-<a href="game.html?id=myperfecthotel" class="game-button">
-    <img src="https://nowifigames.org/files/images/my-perfect-hotel.png" alt="icon">
-    <span>My Perfect Hotel</span>
-</a>
-<a href="game.html?id=hillclimbracing" class="game-button">
-    <img src="https://nowifigames.org/files/images/icon-128.png" alt="icon">
-    <span>Hill Climb Racing</span>
-</a>
-<a href="game.html?id=slope" class="game-button">
-    <img src="https://unblockedgames.ee/files/images/icon-512.png" alt="icon">
-    <span>Slope</span>
-</a>
-<a href="game.html?id=uno" class="game-button">
-    <img src="https://www.gamingcypher.com/wp-content/uploads/2018/11/UNO-Icon-Gaming-Cypher.png" alt="icon">
-    <span>UNO</span>
-</a>
-<a href="game.html?id=cookieclicker" class="game-button">
-    <img src="https://dordle.io/data/image/game/cookie-clicker.png" alt="icon">
-    <span>Cookie Clicker</span>
-</a>
-<a href="game.html?id=aquaparkio" class="game-button">
-    <img src="https://play-lh.googleusercontent.com/pNI21ILS4I9IAzveYzjbfk5D5LGuL03b0Ea4OtlFRLD_yk7KYLBeLlBmsvhH7Uj-dQn6" alt="icon">
-    <span>Aquapark.io</span>
-</a>
-<a href="game.html?id=fruitscut3d" class="game-button">
-    <img src="https://play-lh.googleusercontent.com/aR3EOhTi5huFXiKDd0vxREUAkV4YkAC2Fd22gFb9h5vEzGw-DoZih1tngEXECD97Eeg" alt="icon">
-    <span>Fruit Cuts 3D</span>
-</a>
-<a href="game.html?id=goingballs" class="game-button">
-    <img src="https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/f1/49/96/f1499654-5a9c-4bb6-4d1c-30e382eb15ac/source/512x512bb.jpg" alt="icon">
-    <span>Going Balls</span>
-</a>
-        </div>
+            </div>
 
-       <!-- <div class="ad">
-            <iframe data-aa='2371981' src='//ad.a-ads.com/2371981?size=728x90' style='width:728px; height:90px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
-        </div> -->
-    </div>
+        </div>
 
     <footer>
         <p>© 2024-2025 Hravka. All rights reserved.</p>
