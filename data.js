@@ -280,5 +280,26 @@ const games = [
     description: "Snake and Ladders is a well-known game series where you play against other players trying to see who gets to the end of the playing field first. The underlying principle of the game is rather simple – each player is throwing a dice and moves accordingly. If you hit a ladder, you can climb it and shorten your journey. If you hit a snake, you slide down! You can play with your friends on one PC, or through multiplayer. (gameflare.com)",
     url: "https://www.gameflare.com/embed/snake-and-ladders-multiplayer/"
 },
+{
+    id: "melonplayground",
+    name: "Melon Playground",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjAkwhhOmAvruGFyclNrV2pykhnUUXMCtbRw&s",
+    description: "Unleash your creativity in this sandbox game with endless possibilities and ragdoll physics.",
+    url: "https://cdn.vietdp.com/file/vietdp-games/games/t52025/melon-playground/index.html"
+},
+{
+    id: "paperio3d",
+    name: "Paper.io 3D",
+    icon: "https://play-lh.googleusercontent.com/Lyr9F4rWmbC3--lgyJi2KKY24lTAbKISBdzAi31QB-jbB_H4e_nCZOIM9xG3_QY71uuU=w240-h480-rw",
+    description: "Conquer unique 3D shapes by coloring in your territory, but watch out for other players trying to cut you off.",
+    url: "https://classroom30x.github.io/repo1/lesson-3/"
+},
+{
+    id: "googlesnake",
+    name: "Google Snake",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStA1L_dqurUVIlm2qN1Lm4fWEcck4fAYGl5g&s",
+    description: "Play the classic Snake game directly in your browser, eating food to grow and avoiding your own tail.",
+    url: "https://mei1012.github.io/snakemods/v/current/"
+},
 
 ];
