@@ -329,6 +329,12 @@ const games = [
     description: "An engaging online billiards game where players challenge global opponents for coins, trophies, and skill bragging rights.",
     url: "https://prod-web-pool.miniclip.com/mc?localmc"
 },
-
+{
+    id: "growdenio",
+    name: "Growden.io",
+    icon: "https://cdn.growdenio.net/assets/img/apple-touch-icon.png",
+    description: "Growden.io is an online, social .io farming game; plant seeds, harvest crops, earn money, customize your garden, and trade with other players.",
+    url: "https://growden.io"
+},
 
 ];
