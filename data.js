@@ -301,5 +301,34 @@ const games = [
     description: "Play the classic Snake game directly in your browser, eating food to grow and avoiding your own tail.",
     url: "https://mei1012.github.io/snakemods/v/current/"
 },
+{
+    id: "amongus",
+    name: "Among Us",
+    icon: "https://static.wikia.nocookie.net/ipod/images/6/63/Among_Us_app_icon.png/revision/latest?cb=20210508205652",
+    description: "Work to fix your spaceship, but beware: a hidden Impostor wants to sabotage and k*ll everyone.",
+    url: "https://amongusplay.online/"
+},
+{
+    id: "smashkarts",
+    name: "Smash Karts",
+    icon: "Multiplayer kart battle arena where players drive, collect powerful weapons, and smash opponents.",
+    description: "https://imgs.crazygames.com/smash-karts_1x1/20251014144750/smash-karts_1x1-cover?format=auto&quality=100&metadata=none&width=1200",
+    url: "https://smashkarts.io/"
+},
+{
+    id: "fortzone",
+    name: "Fortzone",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAh6jmNqLAT_FsLXI-z3HOKETCDzjxU9PDCA&s",
+    description: "Last-player-standing shooter with building mechanics, where players scavenge weapons and construct defenses in real-time.",
+    url: "https://game.fortzone.games/fortzone/index.html"
+},
+{
+    id: "8ballpoolb",
+    name: "8 Ball Pool Billiards",
+    icon: "https://s.cafebazaar.ir/images/icons/com.miniclip.eightballpool-ca95ccc1-7160-4da7-a12d-d7d03f1280df_512x512.png?x-img=v1/resize,h_256,w_256,lossless_false/optimize",
+    description: "An engaging online billiards game where players challenge global opponents for coins, trophies, and skill bragging rights.",
+    url: "https://prod-web-pool.miniclip.com/mc?localmc"
+},
+
 
 ];
