@@ -311,8 +311,8 @@ const games = [
 {
     id: "smashkarts",
     name: "Smash Karts",
-    icon: "Multiplayer kart battle arena where players drive, collect powerful weapons, and smash opponents.",
-    description: "https://yt3.googleusercontent.com/OKPFuDO6MCmgJOieSXnx2N0vlGpl13J68P72MKoHaTK5cBxWFuIYO7SjaSSa0Ndmp3NHwR_b=s900-c-k-c0x00ffffff-no-rj",
+    icon: "https://yt3.googleusercontent.com/OKPFuDO6MCmgJOieSXnx2N0vlGpl13J68P72MKoHaTK5cBxWFuIYO7SjaSSa0Ndmp3NHwR_b=s900-c-k-c0x00ffffff-no-rj",
+    description: "Multiplayer kart battle arena where players drive, collect powerful weapons, and smash opponents.",
     url: "https://smashkarts.io/"
 },
 {
