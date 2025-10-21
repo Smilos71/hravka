@@ -222,7 +222,7 @@ const games = [
     name: "Cookie Clicker",
     icon: "https://dordle.io/data/image/game/cookie-clicker.png",
     description: "Cookie Clicker is an addictive incremental (idle) game where you click a giant cookie to earn cookies and use them to buy buildings and upgrades that automate production and enable exponential growth with no defined end.",
-    url: "https://ubg365.github.io/"
+    url: "https://ubg100.github.io/games/cookie-clicker/index.html"
 },
 {
     id: "aquaparkio",
