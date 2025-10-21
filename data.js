@@ -304,7 +304,7 @@ const games = [
 {
     id: "amongus",
     name: "Among Us",
-    icon: "https://static.wikia.nocookie.net/ipod/images/6/63/Among_Us_app_icon.png/revision/latest?cb=20210508205652",
+    icon: "https://www.rw-designer.com/icon-image/21508-256x256x32.png",
     description: "Work to fix your spaceship, but beware: a hidden Impostor wants to sabotage and k*ll everyone.",
     url: "https://amongusplay.online/"
 },
@@ -312,7 +312,7 @@ const games = [
     id: "smashkarts",
     name: "Smash Karts",
     icon: "Multiplayer kart battle arena where players drive, collect powerful weapons, and smash opponents.",
-    description: "https://imgs.crazygames.com/smash-karts_1x1/20251014144750/smash-karts_1x1-cover?format=auto&quality=100&metadata=none&width=1200",
+    description: "https://yt3.googleusercontent.com/OKPFuDO6MCmgJOieSXnx2N0vlGpl13J68P72MKoHaTK5cBxWFuIYO7SjaSSa0Ndmp3NHwR_b=s900-c-k-c0x00ffffff-no-rj",
     url: "https://smashkarts.io/"
 },
 {
