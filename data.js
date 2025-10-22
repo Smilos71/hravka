@@ -336,5 +336,20 @@ const games = [
     description: "Growden.io is an online, social .io farming game; plant seeds, harvest crops, earn money, customize your garden, and trade with other players.",
     url: "https://growden.io"
 },
+{
+    id: "magictiles3",
+    name: "Magic Tiles 3",
+    icon: "https://play-lh.googleusercontent.com/u94NKpNjH1sBOiKHevX3_ATM-ozNHg6b186oU9GfnPnHwbdJ7RaeipkCRcVPdf1KRA",
+    description: "Magic Tiles 3 is a popular rhythm mobile game where players tap black tiles to the beat of music, avoiding white ones. It features a vast licensed song library and a multiplayer battle mode.",
+    url: "https://html5.gamedistribution.com/58deefb8f63943dcbc5093070b9b5777/?gd_sdk_referrer_url=https://gamedistribution.com/games/magic-tiles-3/"
+},
+{
+    id: "wordsearch",
+    name: "Word Search",
+    icon: "https://play-lh.googleusercontent.com/AvniFeHM4hbtUFrWHmZ_xFf_u4mdFc96iFfA5pW_R7RUm-5DfLl6d1tCiqQWlULExt0",
+    description: "Grid puzzle where you find hidden words running horizontally, vertically, and diagonally.",
+    url: "https://html5.gamedistribution.com/fbd63068e7fe4c7b8d2f977390db446f/?gd_sdk_referrer_url=https://gamedistribution.com/games/word-search-3/"
+},
+
 
 ];
