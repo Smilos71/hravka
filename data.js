@@ -350,6 +350,33 @@ const games = [
     description: "Grid puzzle where you find hidden words running horizontally, vertically, and diagonally.",
     url: "https://html5.gamedistribution.com/fbd63068e7fe4c7b8d2f977390db446f/?gd_sdk_referrer_url=https://gamedistribution.com/games/word-search-3/"
 },
-
+{
+    id: "smartdotsreloaded",
+    name: "Smart Dots Reloaded",
+    icon: "https://img.gamedistribution.com/aac48696a9cb4ef7a6b820ba265af557-512x512.jpg",
+    description: "Smart Dots Reloaded is a modern remake of the classic Dots and Boxes puzzle where players connect dots to complete squares for points.",
+    url: "https://html5.gamedistribution.com/aac48696a9cb4ef7a6b820ba265af557/?gd_sdk_referrer_url=https://gamedistribution.com/games/smart-dots-reloaded/"
+},
+{
+    id: "magicandwizardsmahjong",
+    name: "Magic and Wizards Mahjong",
+    icon: "https://img.gamedistribution.com/769f3b2834b94b7ea57a8aa899d93272-512x512.jpg",
+    description: "Magic and Wizards Mahjong is a time-based puzzle game where you match mystical tiles to clear the board.",
+    url: "https://html5.gamedistribution.com/769f3b2834b94b7ea57a8aa899d93272/?gd_sdk_referrer_url=https://gamedistribution.com/games/magic-and-wizards-mahjong/"
+},
+{
+    id: "asmrgirllm",
+    name: "ASMR Girl: Livestream Mukbang",
+    icon: "https://img.gamedistribution.com/b96b71b611274b38a1de99b6ac82318c-512x512.jpg",
+    description: "Simulate being an ASMR mukbang streamer by cooking, eating, and interacting with a livestream audience.",
+    url: "https://html5.gamedistribution.com/b96b71b611274b38a1de99b6ac82318c/?gd_sdk_referrer_url=https://gamedistribution.com/games/asmr-girl:-livestream-mukbang/"
+},
+{
+    id: "mytinymarket",
+    name: "My Tiny Market",
+    icon: "https://img.gamedistribution.com/4a0b780699b44c9cac8dfbda58a0dd04-512x512.jpg",
+    description: "Manage and expand your supermarket business by restocking shelves, serving customers, and hiring employees.",
+    url: "https://html5.gamedistribution.com/4a0b780699b44c9cac8dfbda58a0dd04/?gd_sdk_referrer_url=https://gamedistribution.com/games/my-tiny-market/"
+},
 
 ];
