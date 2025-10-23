@@ -441,4 +441,19 @@ const games = [
     description: "Fill the colored cubes into their matching holes. Limited space means you must strategize and plan moves carefully to avoid getting stuck and clear the board.",
     url: "https://html5.gamedistribution.com/98c818ecf7ff428f85285d7684c5de93/?gd_sdk_referrer_url=https://gamedistribution.com/games/cube-to-hole-puzzle/"
 },
+{
+    id: "vex9",
+    name: "Vex 9",
+    icon: "https://img.gamedistribution.com/8d034584a63642dcb89fa3d24ed6e1b1-512x512.jpg",
+    description: "Run, jump, and slide through new Acts filled with deadly traps. Test your skills with the new Jetpack and conquer the ultimate Challenge Mode!",
+    url: "https://html5.gamedistribution.com/8d034584a63642dcb89fa3d24ed6e1b1/?gd_sdk_referrer_url=https://gamedistribution.com/games/vex-9/"
+},
+{
+    id: "cookieland",
+    name: "Cookie Land",
+    icon: "https://img.gamedistribution.com/bb4d392023214827884f92b2a0d68c27-512x512.jpg",
+    description: "Match cookies, candies, and other delicious treats to clear the board and trigger scrumptious chain reactions",
+    url: "https://html5.gamedistribution.com/bb4d392023214827884f92b2a0d68c27/?gd_sdk_referrer_url=https://gamedistribution.com/games/cookie-land/"
+},
+
 ];
