@@ -378,5 +378,67 @@ const games = [
     description: "Manage and expand your supermarket business by restocking shelves, serving customers, and hiring employees.",
     url: "https://html5.gamedistribution.com/4a0b780699b44c9cac8dfbda58a0dd04/?gd_sdk_referrer_url=https://gamedistribution.com/games/my-tiny-market/"
 },
-
+{
+    id: "rockcrawling",
+    name: "Rock Crawling",
+    icon: "https://img.gamedistribution.com/76f026c1a1054c38b62a350e7bed02bc-512x512.jpg",
+    description: "Thrilling 3D off-road simulator where powerful vehicles navigate extreme and rugged terrains, testing control and timing.",
+    url: "https://html5.gamedistribution.com/76f026c1a1054c38b62a350e7bed02bc/?gd_sdk_referrer_url=https://gamedistribution.com/games/rock-crawling/"
+},
+{
+    id: "vicecitydriver",
+    name: "Vice City Driver",
+    icon: "https://img.gamedistribution.com/b450025a35a0458493e9de730a67aff5-512x512.jpg",
+    description: "Drive and customize a sports car in an open city, completing speed, stunt, and drift challenges with your dog.",
+    url: "https://html5.gamedistribution.com/b450025a35a0458493e9de730a67aff5/?gd_sdk_referrer_url=https://gamedistribution.com/games/vice-city-driver/"
+},
+{
+    id: "waveroad3d",
+    name: "Wave Road 3D",
+    icon: "https://img.gamedistribution.com/39f3d521b1134600ad5703502ca9d247-512x512.jpg",
+    description: "Fast-paced reflex game controlling an arrow gliding through a floating road with traps and collectibles in 3D.",
+    url: "https://html5.gamedistribution.com/39f3d521b1134600ad5703502ca9d247/?gd_sdk_referrer_url=https://gamedistribution.com/games/wave-road-3d/"
+},
+{
+    id: "runnow",
+    name: "Run Now",
+    icon: "https://img.gamedistribution.com/332805b21f3c4890bb4258477857b0bb-512x512.jpg",
+    description: "Run Now is an addictive puzzle game where you guide your character through a maze of humorous obstacles and traps using quick reflexes.",
+    url: "https://html5.gamedistribution.com/332805b21f3c4890bb4258477857b0bb/?gd_sdk_referrer_url=https://gamedistribution.com/games/run-now/"
+},
+{
+    id: "powerfulpunch",
+    name: "Powerful Punch",
+    icon: "https://img.gamedistribution.com/0c9e186c2adf4c52961d042085dfaeb1-512x512.jpg",
+    description: "Unleash hilarious, powerful punches to take down villains and rescue the weak in this casual game.",
+    url: "https://html5.gamedistribution.com/0c9e186c2adf4c52961d042085dfaeb1/?gd_sdk_referrer_url=https://gamedistribution.com/games/powerful-punch/"
+},
+{
+    id: "chickenbananaquest",
+    name: "Chicken Banana Quest",
+    icon: "https://img.gamedistribution.com/ba23931cd64944a6ba5dc162f70c1684-512x512.jpg",
+    description: "Help the Chicken and Banana to solve all puzzle quest and find the play button. Use your skills to solve the puzzles before the lives run out and complete all levels with the less possible clicks",
+    url: "https://html5.gamedistribution.com/ba23931cd64944a6ba5dc162f70c1684/?gd_sdk_referrer_url=https://gamedistribution.com/games/chicken-banana-quest/"
+},
+{
+    id: "islandpuzzle",
+    name: "Island Puzzle",
+    icon: "https://img.gamedistribution.com/76d407a8d2144486832787fc2e47ca95-512x512.jpg",
+    description: "Welcome to the ultimate Island Puzzle adventure! Test your logic and strategy skills in this captivating logic puzzle and building game.",
+    url: "https://html5.gamedistribution.com/76d407a8d2144486832787fc2e47ca95/?gd_sdk_referrer_url=https://gamedistribution.com/games/island-puzzle:-build-and-solve/"
+},
+{
+    id: "elytraflight",
+    name: "Elytra Flight",
+    icon: "https://img.gamedistribution.com/82f6fa2fa66c47b3a0f2b0543cbdfc43-512x512.jpg",
+    description: "Elytra Flight is an endless flying adventure inspired by the legendary Elytra wings. Players take to the skies in a fast-paced challenge where reflexes and strategy decide how long they can survive.",
+    url: "https://html5.gamedistribution.com/82f6fa2fa66c47b3a0f2b0543cbdfc43/?gd_sdk_referrer_url=https://gamedistribution.com/games/elytra-flight/"
+},
+{
+    id: "cubetoholepuzzle",
+    name: "Cube to Hole Puzzle",
+    icon: "https://img.gamedistribution.com/98c818ecf7ff428f85285d7684c5de93-512x512.jpg",
+    description: "Fill the colored cubes into their matching holes. Limited space means you must strategize and plan moves carefully to avoid getting stuck and clear the board.",
+    url: "https://html5.gamedistribution.com/98c818ecf7ff428f85285d7684c5de93/?gd_sdk_referrer_url=https://gamedistribution.com/games/cube-to-hole-puzzle/"
+},
 ];
