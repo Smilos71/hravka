@@ -469,4 +469,32 @@ const games = [
     description: "Color Dots Challenge: An addictive puzzle game where you use logic and strategy to connect and match colorful dots to clear the board.",
     url: "https://html5.gamedistribution.com/726d7dbf31be4f8bb97176f20999a68a/?gd_sdk_referrer_url=https://gamedistribution.com/games/color-dots-challenge/"
 },
+{
+    id: "woodyhexa",
+    name: "Woody Hexa",
+    icon: "https://img.gamedistribution.com/082c45e1e26f49a2b8ab70fa7aa6b3b7-512x512.jpg",
+    description: "Woody Hexa is a visually engaging puzzle game challenging players to strategically arrange hexagonal blocks to complete 250 levels.",
+    url: "https://html5.gamedistribution.com/082c45e1e26f49a2b8ab70fa7aa6b3b7/?gd_sdk_referrer_url=https://gamedistribution.com/games/woody-hexa/"
+},
+{
+    id: "formulatrafficracer",
+    name: "Formula Traffic Racer",
+    icon: "https://img.gamedistribution.com/940c7c7f620b46f0ba61998e9a98b8fb-512x512.jpg",
+    description: "F1 Traffic Racer: Skid modified F1 cars on 3 highways, using nitro to conquer fast-paced racing modes.",
+    url: "https://html5.gamedistribution.com/940c7c7f620b46f0ba61998e9a98b8fb/?gd_sdk_referrer_url=https://gamedistribution.com/games/formula-traffic-racer/"
+},
+{
+    id: "dogescape",
+    name: "Dog Escape",
+    icon: "https://img.gamedistribution.com/023e7fbb9c874166a76219e0c1f45af0-512x512.jpg",
+    description: "Dog Escape is a puzzle game where you save a lost dog from traps, then feed, style, and care for your new puppy.",
+    url: "https://html5.gamedistribution.com/023e7fbb9c874166a76219e0c1f45af0/?gd_sdk_referrer_url=https://gamedistribution.com/games/dog-escape-1/"
+},
+{
+    id: "petmerge",
+    name: "Pet Merge",
+    icon: "https://img.gamedistribution.com/3592b08b0e944ff1b45c09d8f3b06d64-512x512.jpg",
+    description: "Merge adorable pets! Combine cute companions to unlock rare and magical species. Pass exciting levels in adventure mode or beat your high score in the classic mode. Let's Play! Meow",
+    url: "https://html5.gamedistribution.com/3592b08b0e944ff1b45c09d8f3b06d64/?gd_sdk_referrer_url=https://gamedistribution.com/games/pet-merge/"
+},
 ];
