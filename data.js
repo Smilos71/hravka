@@ -455,5 +455,18 @@ const games = [
     description: "Match cookies, candies, and other delicious treats to clear the board and trigger scrumptious chain reactions",
     url: "https://html5.gamedistribution.com/bb4d392023214827884f92b2a0d68c27/?gd_sdk_referrer_url=https://gamedistribution.com/games/cookie-land/"
 },
-
+{
+    id: "hazmobfps",
+    name: "Hazmob FPS",
+    icon: "https://img.gamedistribution.com/623baec23d504c83acab0b5250859ba8-512x512.jpg",
+    description: "Intense, tactical first-person shooter with team-based battles, customizable loadouts, and competitive ranked play.",
+    url: "https://html5.gamedistribution.com/623baec23d504c83acab0b5250859ba8/?gd_sdk_referrer_url=https://gamedistribution.com/games/hazmob-fps/"
+},
+{
+    id: "colordotschallenge",
+    name: "Color Dots Challenge",
+    icon: "https://img.gamedistribution.com/726d7dbf31be4f8bb97176f20999a68a-512x512.jpg",
+    description: "Color Dots Challenge: An addictive puzzle game where you use logic and strategy to connect and match colorful dots to clear the board.",
+    url: "https://html5.gamedistribution.com/726d7dbf31be4f8bb97176f20999a68a/?gd_sdk_referrer_url=https://gamedistribution.com/games/color-dots-challenge/"
+},
 ];
