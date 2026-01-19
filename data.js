@@ -497,4 +497,11 @@ const games = [
     description: "Merge adorable pets! Combine cute companions to unlock rare and magical species. Pass exciting levels in adventure mode or beat your high score in the classic mode. Let's Play! Meow",
     url: "https://html5.gamedistribution.com/3592b08b0e944ff1b45c09d8f3b06d64/?gd_sdk_referrer_url=https://gamedistribution.com/games/pet-merge/"
 },
+{
+    id: "ragdollarchers",
+    name: "Ragdoll Archers",
+    icon: "https://play-lh.googleusercontent.com/XMiWEMPbuq13oVcwYQ6ySLtZnBf7WpJ3rb7v-TM4MdFOvWfo1Z2hzSEAApRXzEcshjY",
+    description: "soon",
+    url: "https://ragdollarchers.github.io/embed/ragdoll-archers.html"
+},
 ];
