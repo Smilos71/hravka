@@ -504,4 +504,11 @@ const games = [
     description: "soon",
     url: "https://ragdollarchers.github.io/embed/ragdoll-archers.html"
 },
+{
+    id: "throwchallenge",
+    name: "Ragdoll Throw Challenge",
+    icon: "https://play-lh.googleusercontent.com/1AKnDu9wGpWgdepIIX-T5PH8Bss1y7eMgg-YNW4ewZEzAz3jvux28kCbPgiDfJP3v45L",
+    description: "soon",
+    url: "https://kdata1.com/2024/05/ragdoll-throw-challenge-stickman-playground/"
+},
 ];
