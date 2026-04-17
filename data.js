@@ -512,8 +512,8 @@ const games = [
     url: "https://kdata1.com/2024/05/ragdoll-throw-challenge-stickman-playground/"
 },
 {
-    id: "throwchallenge",
-    name: "Ragdoll Throw Challenge",
+    id: "fivenightsatepsteins",
+    name: "Five Nights at Epstein's",
     icon: "https://data.gameflare.com/games/11242/mtwNEEJpnafK45-400-300.jpg",
     description: "Game about Jeffrey Epstein | 18+",
     url: "https://spamsmilosakrfgd55.github.io/files/hravka/fne18.html"
