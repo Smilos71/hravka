@@ -518,4 +518,25 @@ const games = [
     description: "Game about Jeffrey Epstein | 18+",
     url: "https://spamsmilosakrfgd55.github.io/files/hravka/fne18.html"
 },
+{
+    id: "omnomrun",
+    name: "Om Nom Run",
+    icon: "https://images.weserv.nl/?url=https://img.cdn.famobi.com/portal/html5games/images/tmp/OmNomRunTeaser.jpg",
+    description: "Join Om Nom and Om Nelle on a race through the dangerous streets of Nomville! Avoid obstacles, collect coins, and use power-ups to unlock new characters from the Cut the Rope universe in this fast-paced endless runner.",
+    url: "https://play.famobi.com/wrapper/om-nom-run/A1000-10"
+},
+{
+    id: "giantrush",
+    name: "Giant Rush",
+    icon: "https://images.weserv.nl/?url=https://img.cdn.famobi.com/portal/html5games/images/tmp/GiantRushTeaser.jpg",
+    description: "An action-packed parkour game where you collect stickmen of the same color to grow stronger. Navigate through obstacles and increase your size to defeat the boss at the end of each level in a final showdown.",
+    url: "https://play.famobi.com/wrapper/giant-rush/A1000-10"
+},
+{
+    id: "gardenbloom",
+    name: "Garden Bloom",
+    icon: "https://images.weserv.nl/?url=https://img.cdn.famobi.com/portal/html5games/images/tmp/GardenBloomTeaser.jpg",
+    description: "A colorful match-3 puzzle game featuring 2000+ levels. Switch and match flowers to create powerful boosters, complete gardening missions with Lucy, and decorate your own beautiful garden oasis.",
+    url: "https://games.cdn.famobi.com/html5games/g/garden-bloom/v570/?fg_domain=play.famobi.com"
+},
 ];
