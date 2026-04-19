@@ -540,10 +540,10 @@ const games = [
     url: "https://games.cdn.famobi.com/html5games/g/garden-bloom/v570/?fg_domain=play.famobi.com"
 },
 {
-    id: "catsimmypets",
-    name: "Cat Simulator: My Pets",
-    icon: "https://data.gameflare.com/games/10826/7iqoaSZdVVRVyb-400-300.jpg",
-    description: "Cat Simulator: My Pets is your gateway to a delightful world of adorable kittens and endless pet adventures! Rescue, nurture, and bond with charming stray cats while building the perfect cozy sanctuary.",
-    url: "https://www.zahraj.cz/embed/cat-simulator-my-pets/"
+    id: "mynewroom",
+    name: "My New Room",
+    icon: "https://www.bubbleshooter.net/cdn-cgi/image/quality=78,width=160,height=160,fit=cover,f=auto/img/bubble/my-new-room.png",
+    description: " My New Room 3D — a relaxing game about design: collect items, complete tasks, arrange furniture in your room.",
+    url: "https://spamsmilosakrfgd55.github.io/archive/knihovnikflashemulator.html"
 },
 ];
