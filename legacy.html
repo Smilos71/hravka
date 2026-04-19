@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://smix-video.vercel.app/icon.ico" type="image/x-icon">
+    <meta name="6a2d49436bf4c2d1187363df83b22ff6ff73e604" content="6a2d49436bf4c2d1187363df83b22ff6ff73e604" />
+    <title>Hravka - Free Games for Everyone</title>
+
+
+<script src="https://spamsmilosakrfgd55.github.io/files/hravka/ab.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff6600;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 28px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        .search-bar {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .search-bar input {
+            width: 80%;
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .game-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: flex-start;
+        }
+
+        .game-button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 150px;
+            height: 180px;
+            background-color: white;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .game-button img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+        }
+
+        .game-button:hover {
+            background-color: #ffebcc;
+            border-color: #ff6600;
+            transform: scale(1.05);
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .ad {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+    
+    <script src="data.js"></script>
+
+    <script>
+        // Funkce pro generování HTML tlačítek her
+        function generateGameButtons() {
+            const gameGrid = document.querySelector(".game-grid");
+            gameGrid.innerHTML = ""; // Vyčistí stávající obsah
+
+            // 'games' je proměnná definovaná v data.js
+            games.forEach(game => {
+                const gameButton = document.createElement('a');
+                gameButton.href = `https://hravka.vercel.app/game.html?id=${game.id}`;
+                gameButton.className = 'game-button';
+                gameButton.setAttribute('data-game-title', game.name.toLowerCase()); // Přidáme data atribut pro vyhledávání
+
+                gameButton.innerHTML = `
+                    <img src="${game.icon}" alt="${game.name} icon">
+                    <span>${game.name}</span>
+                `;
+                gameGrid.appendChild(gameButton);
+            });
+        }
+
+        function searchGames() {
+            const query = document.getElementById("search").value.toLowerCase();
+            const games = document.querySelectorAll(".game-button");
+
+            games.forEach(game => {
+                const title = game.getAttribute('data-game-title');
+                game.style.display = title.includes(query) ? "flex" : "none";
+            });
+        }
+        
+        // Spustit generování tlačítek po načtení DOMu
+        document.addEventListener('DOMContentLoaded', generateGameButtons);
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8596430458708728"
+        crossorigin="anonymous"></script>
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JFGKF9ZV0T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-JFGKF9ZV0T');
+    </script>
+
+
+
+
+</head>
+<body>
+    <header>
+        <h1>Hravka</h1>
+    </header>
+
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search games..." oninput="searchGames()">
+        </div>
+
+        <h2>Games</h2><br>
+        <div class="game-grid">
+            </div>
+
+        </div>
+
+    <footer>
+        <p>© 2024-2026 Hravka. All rights reserved.</p>
+        <p>Protected by BeeGuard</p>
+    </footer>
+</body>
+</html>
+

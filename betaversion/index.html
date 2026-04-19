@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://smix-video.vercel.app/icon.ico" type="image/x-icon">
+    <title>Hravka - Free Games for Everyone</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-orange: #ff6600;
+            --bg-dark: #0f1115;
+            --card-bg: #1a1d24;
+            --text-light: #ffffff;
+            --text-dim: #9ca3af;
+            --border: rgba(255, 255, 255, 0.08);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Plus Jakarta Sans', sans-serif; }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            background-image: radial-gradient(circle at 50% 0%, rgba(255, 102, 0, 0.08) 0%, transparent 50%);
+            min-height: 100vh;
+        }
+
+        header {
+            padding: 15px 5%;
+            background: rgba(15, 17, 21, 0.9);
+            backdrop-filter: blur(15px);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .logo-area { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+        .logo-img { width: 38px; height: 38px; border-radius: 8px; }
+        .logo-text { font-size: 24px; font-weight: 800; color: white; letter-spacing: -1px; }
+        .logo-text span { color: var(--primary-orange); }
+
+        .search-container { flex-grow: 1; max-width: 500px; margin: 0 40px; }
+        .search-container input {
+            width: 100%;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid var(--border);
+            padding: 12px 20px;
+            border-radius: 12px;
+            color: white;
+            transition: 0.3s;
+        }
+        .search-container input:focus { outline: none; border-color: var(--primary-orange); background: var(--card-bg); }
+
+        .container { padding: 40px 5%; max-width: 1400px; margin: 0 auto; }
+        
+        .section-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .section-title::before { content: ''; width: 4px; height: 24px; background: var(--primary-orange); border-radius: 2px; }
+
+        .game-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+            gap: 20px;
+        }
+
+        .game-card {
+            background: var(--card-bg);
+            border-radius: 18px;
+            overflow: hidden;
+            text-decoration: none;
+            color: white;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .game-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--primary-orange);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+        }
+
+        .image-wrapper { width: 100%; aspect-ratio: 1/1; overflow: hidden; }
+        .game-card img { width: 100%; height: 100%; object-fit: cover; transition: 0.5s; }
+        .game-card:hover img { transform: scale(1.1); }
+
+        .game-info { padding: 15px; text-align: center; }
+        .game-name { font-weight: 700; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+        footer {
+            margin-top: 60px;
+            padding: 40px 5%;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--text-dim);
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            header { flex-direction: column; gap: 15px; }
+            .search-container { margin: 0; width: 100%; }
+            .game-grid { grid-template-columns: repeat(2, 1fr); gap: 15px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo-area">
+            <img src="https://smix-video.vercel.app/icon.ico" class="logo-img">
+            <div class="logo-text">HRAV<span>KA</span></div>
+        </a>
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Search games..." oninput="searchGames()">
+        </div>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Epic Library</h2>
+        <div class="game-grid" id="game-grid">
+            </div>
+    </div>
+
+    <footer>
+        <p>© 2024-2026 Hravka • Free Games for Everyone</p>
+    </footer>
+
+    <script>
+        // Dynamické načtení tvého data.js z vercelu
+        const script = document.createElement('script');
+        script.src = 'https://hravka.vercel.app/data.js';
+        
+        script.onload = () => {
+            // Jakmile se skript načte, proměnná 'games' bude dostupná
+            if (typeof games !== 'undefined') {
+                renderGames(games);
+            } else {
+                console.error("Variable 'games' not found in data.js");
+            }
+        };
+
+        script.onerror = () => {
+            document.getElementById('game-grid').innerHTML = "<p>Failed to load games from source.</p>";
+        };
+
+        document.head.appendChild(script);
+
+        function renderGames(gamesList) {
+            const grid = document.getElementById("game-grid");
+            grid.innerHTML = "";
+
+            gamesList.forEach(game => {
+                const card = document.createElement('a');
+                card.href = `game.html?id=${game.id}`;
+                card.className = 'game-card';
+                card.setAttribute('data-title', game.name.toLowerCase());
+
+                card.innerHTML = `
+                    <div class="image-wrapper">
+                        <img src="${game.icon}" alt="${game.name}" onerror="this.src='https://smix-video.vercel.app/icon.ico'">
+                    </div>
+                    <div class="game-info">
+                        <div class="game-name">${game.name}</div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function searchGames() {
+            const query = document.getElementById("search").value.toLowerCase();
+            const cards = document.querySelectorAll(".game-card");
+            cards.forEach(card => {
+                const title = card.getAttribute('data-title');
+                card.style.display = title.includes(query) ? "flex" : "none";
+            });
+        }
+    </script>
+</body>
+</html>
