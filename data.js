@@ -539,5 +539,11 @@ const games = [
     description: "A colorful match-3 puzzle game featuring 2000+ levels. Switch and match flowers to create powerful boosters, complete gardening missions with Lucy, and decorate your own beautiful garden oasis.",
     url: "https://games.cdn.famobi.com/html5games/g/garden-bloom/v570/?fg_domain=play.famobi.com"
 },
-
+{
+    id: "catsimmypets",
+    name: "Cat Simulator: My Pets",
+    icon: "https://data.gameflare.com/games/10826/7iqoaSZdVVRVyb-400-300.jpg",
+    description: "Cat Simulator: My Pets is your gateway to a delightful world of adorable kittens and endless pet adventures! Rescue, nurture, and bond with charming stray cats while building the perfect cozy sanctuary.",
+    url: "https://www.zahraj.cz/embed/cat-simulator-my-pets/"
+},
 ];
