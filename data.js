@@ -546,4 +546,11 @@ const games = [
     description: " My New Room 3D — a relaxing game about design: collect items, complete tasks, arrange furniture in your room.",
     url: "https://spamsmilosakrfgd55.github.io/archive/knihovnikflashemulator.html"
 },
+{
+    id: "gnome",
+    name: "Billy running from the Gnome Face",
+    icon: "https://i.ibb.co/JWJcQmDb/a.png",
+    description: "Stupid horror game made by Aquasnail labs",
+    url: "https://cdn.smilos.int.yt/2/brftgf"
+},
 ];
