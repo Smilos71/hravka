@@ -553,4 +553,11 @@ const games = [
     description: "Stupid horror game made by Aquasnail labs",
     url: "https://cdn.smilos.int.yt/2/brftgf"
 },
+{
+    id: "tettest",
+    name: "AS Tettest",
+    icon: "https://cdn.smilos.int.yt/2/p/asl/tettesticon.png",
+    description: "A simple 10x10 block game",
+    url: "https://aquasnail-labs.github.io/tettest/"
+},
 ];
